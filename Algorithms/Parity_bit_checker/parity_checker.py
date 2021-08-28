@@ -29,7 +29,7 @@ def parity_check(arr):
             col_count = 0 
         else:
             #print("Column, ",i," is wrong!")
-            wrong_col = j 
+            wrong_col = i 
             col_count = 0 
 
         if row_count %2 == 0:
